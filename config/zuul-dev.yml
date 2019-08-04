@@ -30,3 +30,8 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 500
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
